@@ -189,7 +189,7 @@ export default function Home() {
       </main>
       <footer className="pie contenido">
         <span>Hecho con cariño <span aria-hidden="true">♡</span></span>
-        <span>Un espacio para compartir buenas palabras.</span>
+        <span>Un espacio para compartir buenas palabras. <a className="enlace-admin" href="/admin">Administrar</a></span>
       </footer>
     </div>
   );
