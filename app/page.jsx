@@ -21,7 +21,7 @@ function iniciales(nombre) {
 }
 
 function avatarColor(nombre) {
-  const colores = ['#f7d6cb', '#d8d9f8', '#cfe9dc', '#f8e0ab', '#cfe3f3', '#f0d7e8'];
+  const colores = ['#dbeafe', '#e9ddff', '#cffafe', '#e0e7ff', '#d1fae5', '#ffe4e6'];
   let valor = 0;
   for (const letra of nombre) valor = (valor * 31 + letra.charCodeAt(0)) >>> 0;
   return colores[valor % colores.length];
@@ -95,10 +95,7 @@ export default function Home() {
 
       <main className="contenido">
         <section className="hero">
-          <div className="subtitulo"><span className="subtitulo-punto" /> HOLA, QUÉ BUENO VERTE POR ACÁ</div>
-          <h1>Dejá tu <em>huella</em><span className="punto">.</span></h1>
-          <p>Los buenos recuerdos se construyen con pequeñas palabras. Dejá un saludo, un pensamiento o simplemente contanos que pasaste por acá.</p>
-          <div className="microdetalle"><span aria-hidden="true">✦</span> Cada mensaje hace este lugar un poquito más especial.</div>
+          <h1>Mensaje para <em>Leandro</em></h1>
         </section>
 
         <div className="columnas">

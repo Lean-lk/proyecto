@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Libro de visitas | Dejá tu huella',
-  description: 'Un rincón para dejar un saludo, un recuerdo o unas palabras.',
+  title: 'Mensaje para Leandro | Libro de visitas',
+  description: 'Dejá tu mensaje para Leandro en su libro de visitas.',
 };
 
 export default function RootLayout({ children }) {
